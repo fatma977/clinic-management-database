@@ -32,7 +32,7 @@ CREATE TABLE Patient (
 );
 
 CREATE TABLE Appointment (
-    appt_id INT PRIMARY KEY ,
+    appt_id INT PRIMARY KEY AUTO_INCREMENT,
     appt_date DATE NOT NULL,
     patient_id INT,
     doctor_id INT,
